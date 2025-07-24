@@ -76,10 +76,47 @@
         font-size: 2rem;
       }
     }
+   nav {
+  background-color: #005792;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.navbar li a:hover {
+  background-color: #013a63;
+} 
   </style>
 </head>
 <body>
-
+<nav>
+  <ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us / Info</a></li>
+    <li><a href="csharp.html">C# and .Net</a></li>
+    <li><a href="cyber.html">Cyber Security</a></li>
+    <li><a href="dbms.html">DBMS</a></li>
+    <li><a href="cloud.html">Cloud Computing</a></li>
+  </ul>
+</nav>
   <h1>Welcome to My First Webpage!</h1>
   <p>This is a paragraph of text. I can write anything I want here.</p>
   <p>Here's another paragraph, just for good measure.</p>
