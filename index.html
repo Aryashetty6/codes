@@ -94,12 +94,17 @@
 
 .navbar li a {
   text-decoration: none;
-  color: #f8f9fa; /* brighter text */
-  font-weight: 600;
+  color: #ffffff; /* keep white if background is dark */
+  font-weight: bold;
   font-size: 16px;
-  padding: 10px 16px;
+  padding: 8px 14px;
   border-radius: 6px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar li a:hover {
+  background-color: #ffffff;
+  color: #005792; /* new: changes text to blue on hover */
 }
 
 .navbar li a:hover {
